@@ -14,8 +14,11 @@ I decided to remove the column Item Weight for two reasons, firstly that was mis
 Now it was time to clean the data and I found a column (Item Fat Content) with multiple values that meant the same thing (LF, low fat, reg, Regular) so I changed all the data in that column to be more uniform.
 Now with clean unifrom data i was able to start vizualizing the data.
 Here is a boxplot showing us the spread of item visibility.
+
 ![image](https://user-images.githubusercontent.com/105397828/176762506-15ea1ca2-3ce5-4154-8782-c46871b22ee8.png)
+
 Checking on the relative visibility of items against the number of sales we found this.
+
 ![image](https://user-images.githubusercontent.com/105397828/176763012-7b0fc5e2-d7e2-42ac-9570-4fcfc44afe41.png)
 
 Next we moved on to recleaning our data for Machine Learning.
