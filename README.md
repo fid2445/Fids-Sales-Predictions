@@ -2,13 +2,13 @@ Sales Predictions
 
 Author: Mike Fiddler
 
-Business problem:
+
 Trying to predict item sales based on a variety of categories.
 
-Data: 
+ 
 Some of our categories included Item Weight, Item Fat Content (Low fat or regular), Item Type (dairy, meat, etc.), Item Visibility and Outlet Size.
 
-Methods
+
 I began by exploring the data, cleaning out any duplicated rows and checking for missing data.
 I decided to remove the column Item Weight for two reasons, firstly that was missing over 1500 values and secondly because weight doesnt detur people from buying the food they want. Next I imputed a value of 'Unknown' for missing values in the column Outlet Size as I do belive that store size could end up impacting sales.
 Now it was time to clean the data and I found a column (Item Fat Content) with multiple values that meant the same thing (LF, low fat, reg, Regular) so I changed all the data in that column to be more uniform.
