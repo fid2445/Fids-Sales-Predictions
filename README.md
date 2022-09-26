@@ -22,7 +22,7 @@ Checking on the relative visibility of items against the number of sales we foun
 ![image](https://user-images.githubusercontent.com/105397828/176763012-7b0fc5e2-d7e2-42ac-9570-4fcfc44afe41.png)
 
 Next we moved on to recleaning our data for Machine Learning.
-I dropped serverl columns right off the start as i did not need any extra noise in my models.
+I dropped serveral columns right off the start as i did not need any extra noise in my models.
 After imputing, transforming and fitting I was able to create a Linear Regression and a Regression Tree.
 
 After looking over serveral metrics of the data I concluded that my Regression Tree model was the best fit for predicting item sales.
